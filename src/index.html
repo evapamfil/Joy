@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Joy</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="bundle/styles.css">
+    </head>
+    <body class="dark">
+       
+
+        <main data-scroll-container>
+            <div class="container">
+            <header  data-scroll-section>
+                <a href="/">
+                    <h1>JOY</h1>
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about" class="anchor">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="anchor">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div data-scroll-section class="section first"> 
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1 col-lg-12 flex">
+                        <div class="container-img">
+                            <div class="mask" data-scroll>
+                                <img src="images/joy.jpg" alt="">
+                            </div>
+                         </div>
+                        <div class="content">
+                            <h2 class="title" data-scroll data-scroll-repeat  data-scroll-speed="1" data-scroll-call="dark">Grande surface</h2>
+                            <a href="" data-scroll data-scroll-speed="2">@grande.surface</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-scroll-section class="section second" id="about">
+                <div class="row">
+                    <div class="offset-xl-4 col-lg-12 flex">
+                        <div class="content">
+                            <h2 class="title" data-scroll data-scroll-speed="1">About</h2>
+                            <p data-scroll   data-scroll-repeat  data-scroll-call="light">
+                                stylist and creative</p>
+                        </div>
+                        <img data-scroll src="images/img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-scroll-section>
+            <div id="horizontal" class="height-section">
+                <div data-scroll data-scroll-sticky data-scroll-target="#horizontal" class="title-projects">
+                    <h2 class="title" id="projects">Projects</h2>
+                </div>
+                <div class="the-sticky-div" id="sticky"  data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#horizontal" data-scroll data-scroll-call="dark">
+                        <div class="scrollable-div" data-scroll data-scroll-direction="horizontal" data-scroll-speed="12" data-scroll-target="#horizontal">
+                            <div class="the-content">
+                                <div class="a-block">
+                                
+                                    <img src="images/img2.jpg" alt="">
+                            
+                                    <div>
+                                        <p class="title">1.</p>
+                                        <h3 class="title-sm">Clothes</h3>
+                                    </div>
+                                </div>
+                                <div class="a-block">
+                                    <div>
+                                        <p class="title">2.</p>
+                                        <h3 class="title-sm">Travels</h3>
+                                    </div>
+                                    <img src="images/img3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        </main>
+
+       
+
+ 
+        <script src="bundle/main.js"></script>
+    </body>
+</html>
